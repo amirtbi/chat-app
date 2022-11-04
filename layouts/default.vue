@@ -5,6 +5,7 @@ const drawer = ref(true);
 const navItems = ref([
   { text: "Home", link: "/", icon: "mdi-view-dashboard" },
   { text: "Chat", link: "/chat", icon: "mdi-forum" },
+  { text: "App", link: "/tasks", icon: "mdi-forum" },
 ]);
 
 // Functions
