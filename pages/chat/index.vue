@@ -23,8 +23,8 @@
               </div>
               <div class="px-4 mt-2 left-chat__header--searchbar">
                 <v-text-field
-                  outlined
-                  dense
+                  variant="outlined"
+                  density="compact"
                   label="search..."
                   prepend-inner-icon="mdi-magnify"
                 ></v-text-field>
@@ -147,8 +147,8 @@
             </div>
             <div class="chat-input-feedback pa-4 d-flex">
               <v-text-field
-                dense
-                outlined
+                variant="outlined"
+                density="compact"
                 label="type your message"
               ></v-text-field>
               <v-btn class="mx-4 align-self-center" color="success" small
@@ -195,8 +195,18 @@ const messages = ref([
   { sender: "ali", id: "1", text: "hi how are u?", date: "12:00 am" },
   { sender: "hosein", id: "2", text: "Hi, what's up?", date: "13:00 am" },
   { sender: "ali", id: "1", text: "hi from ali", date: "9:00 am" },
-  { sender: "ali", id: "1", text: "hi how are u?", date: "12:00 am" },
-  { sender: "hosein", id: "2", text: "Hi, what's up?", date: "13:00 am" },
+  {
+    sender: "ali",
+    id: "1",
+    text: "Good morning, How are you? What about our next meeting?",
+    date: "12:00 am",
+  },
+  {
+    sender: "hosein",
+    id: "2",
+    text: "Good morning, How are you? What about our next meeting?",
+    date: "13:00 am",
+  },
 ]);
 // Functions
 function ActiveUser(user) {
